@@ -236,3 +236,28 @@ body::before {
 .icon:hover {
     transform: scale(1.2);
 }
+/* Estilos para telas com até 768px (tablets e celulares) */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    section {
+        padding: 30px 15px;
+    }
+
+    h1.logo {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
